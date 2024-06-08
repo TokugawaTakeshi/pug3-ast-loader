@@ -1,0 +1,33 @@
+{
+  "name": "pug3-ast-loader",
+  "version": "0.0.0",
+  "description": "A loader for webpack that allows importing Pug files as a AST object",
+  "keywords": [
+    "webpack",
+    "loader",
+    "pug",
+    "ast"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Takeshi Tokugawa",
+    "email": "tokugawa.takesi@gmail.com"
+  },
+  "repository": "https://github.com/TokugawaTakeshi/pug3-ast-loader.git",
+  "bugs": "https://github.com/TokugawaTakeshi/pug3-ast-loader.git/issues",
+  "engines": {
+    "node": ">= 22.0.0"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "pug-error": "2.1.0",
+    "pug-lexer": "5.0.1",
+    "pug-parser": "6.0.0"
+  }
+}
